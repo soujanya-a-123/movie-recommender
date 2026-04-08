@@ -1,0 +1,67 @@
+body{
+                background: linear-gradient(to bottom, rgb(188, 5, 5), navy);
+            }
+            h1{
+                color: goldenrod;
+                font-size: 100px;
+                text-align: center;
+                margin: 25px;
+            }
+            img{
+                width: 28%;
+                height: 600px;
+                margin-left: 3%;
+                border: 10px goldenrod solid;
+                border-radius: 20px;
+            }
+            h6{
+                font-size: 35px;
+                color: goldenrod;
+                text-align: center;
+            }
+            h2{
+                color: ghostwhite;font-size: 40px;text-align: center;
+            }
+            .Box1{
+                transition: all 0.5s ease-in-out;
+                background-color: goldenrod;
+                text-align: center;
+                width: 350px;
+                border-radius: 20px;
+            }
+            .Box1 img{
+                width: 300px;
+                height: 300px;
+                margin-left: 0%;
+                border: 5px ghostwhite solid;
+                border-radius: 20px;
+            }
+            .Box1 button{
+                background: linear-gradient(to right, rgb(0, 2, 62), rgb(0, 0, 0));
+                
+                width: 300px;
+                height: 45px;
+                color: ghostwhite;
+                font-size: large;
+                border-radius: 20px;
+                border: 2px ghostwhite solid;
+            }
+            .Main{
+                
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .Main:hover .Box1{
+                transform: scale(0.8);
+
+            }
+            .Main .Box1:hover{
+                transform: scale(0.9);
+                box-shadow: 30px 30px  rgb(0, 0, 0);
+            }
+            .Main .Box1:hover button{
+               background: linear-gradient(to left, rgb(188, 5, 5), navy);
+            }
+            span{
+                font-size: 150px;
+            }
